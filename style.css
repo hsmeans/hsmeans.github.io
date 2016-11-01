@@ -10,12 +10,9 @@
 h1{
     font-size: 40px;
     margin-bottom: 7px;
-    line-height: 1.5em;
-    color: black;
 }
 
-h1:after
-{
+h1:after{
     content:' ';
     display:block;
     border:1px solid green;
@@ -29,15 +26,24 @@ h2{
 
 #background{
     background-image: url("https://i.imgur.com/1qYKKNs.jpg");
+    background-size: cover, auto;
+    margin-left: -8px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+
+
 p{
+    display:inline-block;
+    background-color: rgba(0,0,0,.5);
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 22px;
     color: white;
-    padding-left: 20px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    border-style:solid;
-    border-color:green;
-} 
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
